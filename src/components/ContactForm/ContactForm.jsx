@@ -15,7 +15,6 @@ export const ContactForm = ({ onSubmit }) => {
   const handleSubmit = (values, { resetForm }) => {
     onSubmit(values);
     resetForm();
-    console.log(values);
   };
 
   return (
